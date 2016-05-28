@@ -301,6 +301,12 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
             "Manamune", "Statikk Shiv",
             "Ionian Boots of Lucidity", "Youmuu's Ghostblade", "The Black Cleaver", "Maw of Malmortius"
         };
+        
+          public static string[] Jhin =
+        {
+            "Essence Reaver", "Phantom Dancer",
+            "Berserker's Greaves", "Infinity Edge", "Rapid Firecannon", "Lord Dominik's Regards"
+        };
 
         public static string[] Jinx =
         {
@@ -918,6 +924,8 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
                 List = Jax;
             if (name.Equals("Jayce"))
                 List = Jayce;
+            if (name.Equals("Jhin"))
+                List = Jhin;
             if (name.Equals("Jinx"))
                 List = Jinx;
             if (name.Equals("Kalista"))
