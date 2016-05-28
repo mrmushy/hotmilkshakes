@@ -631,6 +631,12 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
             "Sunfire Cape", "Spirit Visage",
             "Mercury's Treads", "Warmog's Armor", "Randuin's Omen", "Liandry's Torment"
         };
+        
+                public static string[] Taliyah =
+        {
+            "Rod of Ages", "Rylai's Crystal Scepter",
+            "Sorcerer's Shoes", "Abyssal Scepter", "Rabadon's Deathcap", "Luden's Echo"
+        };
 
         public static string[] Talon =
         {
@@ -1024,6 +1030,8 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
                 List = TahmKench;
             if (name.Equals("Talon"))
                 List = Talon;
+            if (name.Equals("Taliyah"))
+                List = Taliyah;
             if (name.Equals("Taric"))
                 List = Taric;
             if (name.Equals("Teemo"))
